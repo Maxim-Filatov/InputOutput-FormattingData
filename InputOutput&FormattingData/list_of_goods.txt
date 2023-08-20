@@ -1,0 +1,5 @@
+1 Goods1 GoodsManufacturer1 1 210.2
+2 Goods2 GoodsManufacturer1 1 51.1
+3 Goods3 GoodsManufacturer3 0 0.99
+4 Goods4 GoodsManufacturer4 1 899.9
+5 Goods5 GoodsManufacturer5 0 33.3
