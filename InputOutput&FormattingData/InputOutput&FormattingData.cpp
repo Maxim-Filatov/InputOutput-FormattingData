@@ -79,7 +79,7 @@ int main() {
                         break;
                     }
                 }
-                break;
+            break;
             // Write 5 structural variables into a file
             case 2:
                 ProductList myList;
