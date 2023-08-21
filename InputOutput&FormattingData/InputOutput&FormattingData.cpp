@@ -1,7 +1,7 @@
 ﻿/* Menu and the entry point to the program.
    Press 1 to execute on of the tasks: 1 - generate a matrix, 2 - format the array of characters.
    Press 2 to create an array of 5 structured variables, then write them into a file and determine an amount of purchase.
-   Press 3 to exit the program. */
+   Press 3 to exit the program. */  
 #include <iostream>
 #include "Matrix.h"
 #include "StringFormatting.h"
@@ -81,20 +81,19 @@ int main() {
                 }
                 break;
             // Write 5 structural variables into a file
-            case 2: {
+            case 2:
                 ProductList myList;
                 myList.write("list_of_goods.txt");
                 myList.countPurchaseSum();
                 cout << "\nWhat do you want to do? Enter a number (1-3):" << endl;
-                break;
-            }
+            break;
             // Exit the program
             case 3:
                 loop = false;
-                break;
+            break;
             default:
                 cout << "Invalid input. Enter only numbers from 1 to 3:" << endl;
-                break;
+            break;
         }
     }
 }

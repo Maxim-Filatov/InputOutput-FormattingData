@@ -56,18 +56,22 @@ float ProductList::countPurchaseSum() {
 		switch (id) {
 			case 0:
 				loop = false;
+				cout << "Total sum: " << sum << endl;
 			break;
 			case 1:
 				sum += products[0].price;
+				cout << "Current sum: " << sum << endl;
 			break;
 			case 2:
 				sum += products[1].price;
+				cout << "Current sum: " << sum << endl;
 			break;
 			case 3:
 				cout << "These goods are unavailable." << endl;
 			break;
 			case 4:
 				sum += products[3].price;
+				cout << "Current sum: " << sum << endl;
 			break;
 			case 5:
 				cout << "These goods are unavailable." << endl;
@@ -76,7 +80,6 @@ float ProductList::countPurchaseSum() {
 				cout << "Invalid input. Enter only numbers from 0 to 5." << endl;
 			break;
 		}
-		cout << "Current sum: " << sum << endl;
 	}
 	return sum;
 }
